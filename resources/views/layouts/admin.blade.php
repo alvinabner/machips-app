@@ -53,9 +53,9 @@
                               <li><a class="dropdown-item" href="{{ route('product.index') }}"><h1>Product</h1></a></li>
                             </ul>
                           </li>
-                          <li class="nav-item mr-5">
+                          <!-- <li class="nav-item mr-5">
                             <a class="nav-link" href="{{ route('auth.create') }}"><h1> Register</h1></a>
-                          </li>
+                          </li> -->
                           <li class="nav-item mr-5">
                             <a class="nav-link" href="{{ route('auth.logout') }}"><h1> Logout</h1></a>
                           </li>
@@ -89,10 +89,10 @@
                       @endauth
                     </ul>
                   </div>
-                  <form class="mr-5">
+                  <!-- <form class="mr-5">
                     <input class="form-control mr-sm-2" style="outline: 0;border-width: 0 0 2px;border-color: black" s type="search" placeholder="Search" aria-label="Search">
                     {{-- <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button> --}}
-                  </form>
+                  </form> -->
             </nav>
         </header>
 
